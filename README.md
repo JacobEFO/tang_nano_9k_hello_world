@@ -16,4 +16,5 @@ make bitstream
 make program
 ```
 
-
+# Credit
+Thanks to Lushylabs for making an excellent (tutorial)[https://learn.lushaylabs.com/getting-setup-with-the-tang-nano-9k/] upon which the RTL is based.
