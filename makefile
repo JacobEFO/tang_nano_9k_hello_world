@@ -15,6 +15,7 @@ output_pnr := pnr-$(project).json
 output_bitstream := bitstream-$(project).fs
 build_dir := ./build
 
+all: synth pnr bitstream
 
 synth: 
 	yosys $(top_file) -p'synth_gowin -top $(top_module) -json $(build_dir)/$(output_synth)'
