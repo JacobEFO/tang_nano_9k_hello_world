@@ -16,5 +16,16 @@ make bitstream
 make program
 ```
 
+Do you hate typing? You can also use the `make all`:
+```
+make all
+make program
+```
+
+If you want to start over, you can `clean`:
+```
+make clean
+```
+
 # Credit
 Thanks to Lushylabs for making an excellent (tutorial)[https://learn.lushaylabs.com/getting-setup-with-the-tang-nano-9k/] upon which the RTL is based.
